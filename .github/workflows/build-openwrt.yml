@@ -26,10 +26,11 @@ env:
   REPO_BRANCH: dev-lean-lede
   CONFIG_FILE: .config
   DIY_SH: diy.sh
-  FREE_UP_DISK: false
   SSH_ACTIONS: true
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
+  UPLOAD_COWTRANSFER: false
+  UPLOAD_WETRANSFER: false
   TZ: Asia/Shanghai
 
 jobs:
